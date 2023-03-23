@@ -9,12 +9,13 @@ import java.io.IOException;
 
 public class TehvehdyksiaApplication extends Application {
     @Override
-    public void start(Stage stage) throws IOException {
+    public void start(Stage stage1) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(TehvehdyksiaApplication.class.getResource("tehvehdyksia-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 420, 240);
-        stage.setTitle("Tervehdyksiä!");
-        stage.setScene(scene);
-        stage.show();
+        Scene scene1 = new Scene(fxmlLoader.load(), 420, 240);
+        stage1.setTitle("Tervehdyksiä!");
+        stage1.setScene(scene1);
+        stage1.show();
+
     }
 
     public static void main(String[] args) {

@@ -1,13 +1,19 @@
 package com.example.demo;
 
 import javafx.fxml.FXML;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Node;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
 import javafx.scene.control.Label;
+import javafx.stage.Stage;
+
+import java.awt.event.ActionEvent;
+import java.io.IOException;
 
 public class TehvehdyksiaController {
     @FXML
     Label label;
-    @FXML
-    private Label welcomeText;
 
     @FXML
     public void onClickAamu(){
@@ -22,7 +28,6 @@ public class TehvehdyksiaController {
         label.setText("Hyvää iltaa!");
     }
     @FXML
-    public void onClickYo(){
-        label.setText("Hyvää yötä!");
-    }
+    public void onClickYo(){label.setText("Hyvää yötä!");}
+
 }
