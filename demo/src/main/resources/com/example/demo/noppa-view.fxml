@@ -4,19 +4,18 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.VBox?>
-<?import javafx.scene.text.Font?>
 
 <VBox prefHeight="240.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.noppa.application.controller.NoppaController">
-   <children>
-      <AnchorPane prefHeight="400.0" prefWidth="600.0">
-         <children>
-      
-            <Button layoutX="150.0" layoutY="145.0" mnemonicParsing="false" onAction="#onClickHeita" text="Heitä noppa" />
-            <Label fx:id="text" alignment="CENTER" layoutX="91.0" layoutY="105.0" prefHeight="20.0" prefWidth="250.0" text="" textAlignment="CENTER">
-               <font>
-                  <Font size="20.0" />
-               </font></Label>
-         </children>
-      </AnchorPane>
-   </children>
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="600.0">
+            <children>
+
+                <Button layoutX="150.0" layoutY="145.0" mnemonicParsing="false" onAction="#onClickHeita" text="Heitä noppa" />
+                <Label fx:id="text" alignment="CENTER" layoutX="28.0" layoutY="68.0" prefHeight="67.0" prefWidth="342.0" text="" textAlignment="CENTER">
+
+                </Label>
+                <Button layoutX="150.0" layoutY="40.0" mnemonicParsing="false" onAction="#onClickHeitaViisi" text="Heitä 5 noppa" />
+            </children>
+        </AnchorPane>
+    </children>
 </VBox>

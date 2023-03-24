@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox prefHeight="240.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="com.example.demo.noppa.application.controller.NoppaController">
+    <children>
+        <AnchorPane prefHeight="400.0" prefWidth="600.0">
+            <children>
+
+                <Button layoutX="150.0" layoutY="145.0" mnemonicParsing="false" onAction="#onClickNoppa"
+                        text="Heitä kolikko"/>
+                <Label fx:id="text" alignment="CENTER" layoutX="28.0" layoutY="68.0" prefHeight="67.0" prefWidth="342.0"
+                       text="" textAlignment="CENTER">
+
+                </Label>
+                
+            </children>
+        </AnchorPane>
+    </children>
+</VBox>
